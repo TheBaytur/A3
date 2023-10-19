@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    // Переход на второй активити и обратно
     public void startNewActivity(View v){
         Intent intent = new Intent(this, SecondActivity.class);
         startActivity(intent);
